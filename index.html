@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JOGOTEST</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body >
+        <script src="script.js" ></script>
+				<div id="container" >
+							<p>JOGO  DA  VELHA</p>
+							<iframe src="gameexplorer.html" id="gamexplorer"></iframe>
+				
+       		<div class="square"   onclick = escreve(1)><p id="um" ></p></div>
+				 <div class="square"  onclick = escreve(2)><p id="dois"></p></div>
+				 <div class="square"  onclick = escreve(3)><p id="tres"></p></div>
+				 <div class="square" onclick = escreve(4)><p id="quatro"></p></div>
+				 <div class="square" onclick = escreve(5)><p id="cinco"></p></div>
+				 <div class="square" onclick = escreve(6)><p id="seis"></p></div>
+				 <div class="square" onclick = escreve(7)><p id="sete"></p></div>
+				 <div class="square" onclick = escreve(8)><p id="oito"></p></div>
+				 <div class="square" onclick = escreve(9)><p id="nove"></p></div>
+				 
+				 	<img id="winimage">
+					 
+			</div>
+			<button type="button" id="restartButton" onclick = restartGame()>Restart game</button>
+    </body>
+</html>
